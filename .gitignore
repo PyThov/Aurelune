@@ -1,18 +1,41 @@
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-UserSettings/
+[Mm]emoryCaptures/
+[Cc]rashes/
+[Ee]xportedObj/
+[Ss]taging/
 
-# MemoryCaptures
-MemoryCaptures/
-
-# Asset meta data should be visible
+# Unity asset meta files should always be committed
 !Assets/**/*.meta
 
-# Visual Studio / Rider
+# User-specific settings
+UserSettings/
+
+# Package cache (restored automatically via packages-lock.json)
+[Pp]ackages/[Cc]ache/
+
+# IL2CPP build output
+il2cpp_cache/
+Il2CppOutputProject/
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.exe
+*.app
+*.unitypackage
+
+# Crash and log files
+sysinfo.txt
+*.stackdump
+
+# Visual Studio
 *.csproj
 *.unityproj
 *.sln
@@ -21,12 +44,50 @@ MemoryCaptures/
 *.user
 *.userprefs
 *.pidb
+*.pidb.meta
+*.pdb
+*.mdb
 *.booproj
 *.svd
+*.opendb
+*.VC.db
+.vs/
+.vsconfig
 
-.vscode/
+# JetBrains Rider
 .idea/
+*.sln.iml
 
-# OS files
+# VS Code
+.vscode/
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Android
+.gradle/
+AndroidPlayer/
+gradlew
+gradlew.bat
+local.properties
+
+# Xcode / iOS
+xcuserdata/
+*.xcworkspace
+DerivedData/
+
+# Burst compiler cache
+BurstCache/
